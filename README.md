@@ -63,6 +63,14 @@ npm run dev
 
 Abre <http://localhost:5180>. La app solo escucha en tu computadora.
 
+### Abrirla como cualquier programa (Windows)
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scriptscrear-acceso.ps1
+```
+
+Crea un acceso con el logotipo en el menú Inicio y en el escritorio. Después basta presionar la tecla Windows, escribir **TAMO CREATOR** y dar Enter: enciende el servidor si hace falta y abre la app en su propia ventana. Para quitarlo, el mismo comando con `-Quitar`.
+
 | Pantalla | Qué haces |
 | --- | --- |
 | **Crear** | Respondes 7 pasos: tipo, formato, estilo, contenido, audio, cuenta/modelo/costo, resumen |

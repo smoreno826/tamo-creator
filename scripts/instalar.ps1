@@ -1,4 +1,4 @@
-# TAMO CREATOR · instalación en Windows
+﻿# TAMO CREATOR · instalación en Windows
 #
 #   powershell -ExecutionPolicy Bypass -File scripts\instalar.ps1            (solo revisa e instala lo de la app)
 #   powershell -ExecutionPolicy Bypass -File scripts\instalar.ps1 -Todo      (además instala las herramientas que falten)
