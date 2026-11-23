@@ -33,14 +33,14 @@ Necesitas [Node.js 20+](https://nodejs.org) y Git.
 
 **Windows**
 ```powershell
-git clone https://github.com/USUARIO/tamo-creator.git
+git clone https://github.com/smoreno826/tamo-creator.git
 cd tamo-creator
 powershell -ExecutionPolicy Bypass -File scripts\instalar.ps1 -Todo -Skills
 ```
 
 **macOS / Linux**
 ```bash
-git clone https://github.com/USUARIO/tamo-creator.git
+git clone https://github.com/smoreno826/tamo-creator.git
 cd tamo-creator
 bash scripts/instalar.sh --todo --skills
 ```
