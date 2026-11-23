@@ -4,6 +4,15 @@ Registro del proceso de TAMO CREATOR. Lo más reciente va arriba. Cada entrada d
 
 ---
 
+## 2026-11-23 · Repositorio público y acceso directo (Santiago, con Claude Code)
+
+- Repositorio publicado en github.com/smoreno826/tamo-creator. Se invitó a `jriesgo-stack` con permiso de escritura; nadie más puede editar.
+- Los commits usan la dirección privada de GitHub para no exponer el correo personal en un repo público.
+- `scripts/crear-acceso.ps1` genera el icono (la T y su barra) y crea el acceso en el menú Inicio y el escritorio. `scripts/abrir.ps1` enciende el servidor si no está corriendo y abre la app en ventana propia.
+- Detalle encontrado al probar: en Windows PowerShell, `localhost` tarda unos 2 s en resolverse; el lanzador revisa el servidor por `127.0.0.1` para no dar un falso "apagado".
+
+---
+
 ## 2026-11-23 · Primera versión de la app (Santiago, con Claude Code)
 
 **Qué se construyó**
