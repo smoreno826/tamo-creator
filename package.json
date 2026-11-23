@@ -1,0 +1,21 @@
+{
+  "name": "tamo-creator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TAMO CREATOR: asistente local para dirigir motion graphics, video con IA generativa y animación 3D usando tu propia cuenta de Claude Code, Codex y Higgsfield.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node server/index.mjs",
+    "build": "vite build",
+    "start": "node server/index.mjs --prod",
+    "skills": "node scripts/sync-skills.mjs",
+    "revisar": "node scripts/revisar-colaboracion.mjs"
+  },
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}

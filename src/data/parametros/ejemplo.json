@@ -1,0 +1,32 @@
+{
+  "_nota": "EJEMPLO de respaldo. Los parámetros definitivos los aporta jriesgo en colaboradores/jriesgo/parametros/*.json con este mismo formato. En cuanto exista un archivo ahí, este ejemplo deja de usarse.",
+  "grupos": [
+    {
+      "id": "color",
+      "titulo": "Color",
+      "controles": [
+        { "id": "exposicion", "titulo": "Exposición", "tipo": "rango", "min": -2, "max": 2, "paso": 0.1, "base": 0, "unidad": "EV", "instruccion": "Ajusta la exposición general {valor} EV." },
+        { "id": "contraste", "titulo": "Contraste", "tipo": "rango", "min": -50, "max": 50, "paso": 1, "base": 0, "unidad": "%", "instruccion": "Cambia el contraste {valor} %." },
+        { "id": "saturacion", "titulo": "Saturación", "tipo": "rango", "min": -100, "max": 100, "paso": 1, "base": 0, "unidad": "%", "instruccion": "Cambia la saturación {valor} %." },
+        { "id": "temperatura", "titulo": "Temperatura", "tipo": "rango", "min": -100, "max": 100, "paso": 1, "base": 0, "unidad": "", "instruccion": "Mueve la temperatura de color {valor} (negativo = más frío, positivo = más cálido)." }
+      ]
+    },
+    {
+      "id": "movimiento",
+      "titulo": "Movimiento",
+      "controles": [
+        { "id": "velocidad", "titulo": "Velocidad general", "tipo": "rango", "min": 50, "max": 200, "paso": 5, "base": 100, "unidad": "%", "instruccion": "Reproduce las animaciones al {valor} % de su velocidad actual." },
+        { "id": "curva", "titulo": "Curva de animación", "tipo": "opciones", "opciones": ["Sin cambio", "Más suave (ease-out largo)", "Más seca (ease-out corto)", "Con rebote", "Lineal"], "base": "Sin cambio", "instruccion": "Usa esta curva en entradas y salidas: {valor}." },
+        { "id": "intensidad", "titulo": "Intensidad del movimiento", "tipo": "rango", "min": 0, "max": 200, "paso": 5, "base": 100, "unidad": "%", "instruccion": "Escala la amplitud de desplazamientos y rotaciones al {valor} %." }
+      ]
+    },
+    {
+      "id": "ritmo",
+      "titulo": "Ritmo y tipografía",
+      "controles": [
+        { "id": "corte", "titulo": "Duración media de plano", "tipo": "rango", "min": 50, "max": 200, "paso": 5, "base": 100, "unidad": "%", "instruccion": "Lleva la duración media de cada plano al {valor} % (el total del video no cambia: redistribuye)." },
+        { "id": "tamano", "titulo": "Tamaño del texto", "tipo": "rango", "min": 60, "max": 160, "paso": 5, "base": 100, "unidad": "%", "instruccion": "Escala todos los textos al {valor} %, respetando márgenes seguros." }
+      ]
+    }
+  ]
+}

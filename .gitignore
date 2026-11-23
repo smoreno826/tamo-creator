@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+*.log
+
+# Proyectos de cada usuario: se quedan en su computadora.
+proyectos/*
+!proyectos/.gitkeep
+
+# Copia local de TODAS las skills instaladas (incluye skills con licencia
+# comercial o privadas que no se pueden publicar). Ver skills/README.md.
+skills/local/
+
+.claude/settings.local.json
